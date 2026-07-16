@@ -13,8 +13,8 @@
 
 @interface EMBExpenseService()
 
-@property (strong, readonly) NSURL *endPointURL;
-@property (strong, readonly) EMBAPIClient *apiClient;
+@property (readonly) NSURL *endPointURL;
+@property (readonly) EMBAPIClient *apiClient;
 
 @end
 
